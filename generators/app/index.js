@@ -4,7 +4,7 @@ var chalk = require('chalk');
 var packagejs = require(__dirname + '/../../package.json');
 
 // Stores JHipster variables
-var jhipsterVar = {moduleName: 'bigchaindb'};
+var jhipsterVar = {moduleName: 'bigchaindb-driver'};
 
 // Stores JHipster functions
 var jhipsterFunc = {};
@@ -25,7 +25,7 @@ module.exports = yeoman.Base.extend({
     },
     displayLogo: function () {
       // Have Yeoman greet the user.
-      this.log('Welcome to the ' + chalk.red('JHipster bigchaindb') + ' generator! ' + chalk.yellow('v' + packagejs.version + '\n'));
+      this.log('Welcome to the ' + chalk.red('JHipster bigchaindb-driver') + ' generator! ' + chalk.yellow('v' + packagejs.version + '\n'));
     }
   },
 
@@ -64,14 +64,6 @@ module.exports = yeoman.Base.extend({
       this.log('message=' + this.message);
 
       this.template('dummy.txt', 'dummy.txt', this, {});
-    },
-
-    registering: function () {
-      try {
-        jhipsterFunc.registerModule("generator-jhipster-bigchaindb", "entity", "post", "app", "BigchainDB is a distributed blockchain database running MongoDB, offering HTTP API to deal with transactions.");
-      } catch (err) {
-        this.log(chalk.red.bold('WARN!') + ' Could not register as a jhipster entity post creation hook...\n');
-      }
     }
   },
 
@@ -80,6 +72,6 @@ module.exports = yeoman.Base.extend({
   },
 
   end: function () {
-    this.log('End of bigchaindb generator');
+    this.log('End of bigchaindb-driver generator');
   }
 });

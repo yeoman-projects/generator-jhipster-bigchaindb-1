@@ -1,2 +1,2 @@
-hello bigchaindb!
+hello bigchaindb-driver!
 It's dummy.txt

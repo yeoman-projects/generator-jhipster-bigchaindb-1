@@ -1,12 +1,12 @@
 {
-  "name": "generator-jhipster-bigchaindb",
+  "name": "generator-jhipster-bigchaindb-driver",
   "version": "0.0.0",
-  "description": "BigchainDB is a distributed blockchain database running MongoDB, offering HTTP API to deal with transactions.",
+  "description": "BigchainDB java driver module for JHipster",
   "keywords": [
     "yeoman-generator",
     "jhipster-module"
   ],
-  "homepage": "https://github.com/smouelhi/generator-jhipster-bigchaindb",
+  "homepage": "https://github.com/smouelhi/generator-jhipster-bigchaindb-driver",
   "author": {
     "name": "Seif Eddine Mouelhi",
     "email": "smouelhi@me.com",
@@ -18,7 +18,7 @@
   "main": "generators/app/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/smouelhi/generator-jhipster-bigchaindb.git"
+    "url": "git+https://github.com/smouelhi/generator-jhipster-bigchaindb-driver.git"
   },
   "dependencies": {
     "yeoman-generator": "0.22.4",
@@ -49,6 +49,6 @@
   },
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/smouelhi/generator-jhipster-bigchaindb/issues"
+    "url": "https://github.com/smouelhi/generator-jhipster-bigchaindb-driver/issues"
   }
 }

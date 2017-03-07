@@ -8,7 +8,7 @@ var deps = [
   [helpers.createDummyGenerator(), 'jhipster:modules']
 ];
 
-describe('JHipster generator bigchaindb', function () {
+describe('JHipster generator bigchaindb-driver', function () {
   describe('simple test', function () {
     before(function (done) {
       helpers
